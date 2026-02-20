@@ -77,7 +77,7 @@ for i,tabName in pairs(Tabs) do
 	end)
 end
 
--- ===== BIẾN TRẠNG THÁI =====
+
 local AutoFarmEnabled = false
 local BringMobEnabled = false
 local Fly15Enabled = false
@@ -85,7 +85,7 @@ local FastAttackEnabled = false
 
 local AutoFarmLoop
 
--- ===== GOM QUÁI =====
+
 BringMobToggle.MouseButton1Click:Connect(function()
 	BringMobEnabled = not BringMobEnabled
 	
@@ -98,7 +98,7 @@ BringMobToggle.MouseButton1Click:Connect(function()
 	end
 end)
 
--- ===== BAY 15 =====
+
 Fly15Toggle.MouseButton1Click:Connect(function()
 	Fly15Enabled = not Fly15Enabled
 	
@@ -111,7 +111,7 @@ Fly15Toggle.MouseButton1Click:Connect(function()
 	end
 end)
 
--- ===== FAST ATTACK =====
+
 FastAttackToggle.MouseButton1Click:Connect(function()
 	FastAttackEnabled = not FastAttackEnabled
 	
